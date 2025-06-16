@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="essusys.coursemanagementsystem.demos.web.mapper.ActivityControlTabMapper">
+    <!-- 结果映射 -->
+    <resultMap id="ActivityControlTabResultMap" type="essusys.coursemanagementsystem.demos.web.entity.ActivityControlTab">
+        <id column="ctrl_id" property="ctrlId" jdbcType="INTEGER"/>
+        <result column="ctrl_name" property="ctrlName" jdbcType="VARCHAR"/>
+        <result column="ctrl_number" property="ctrlNumber" jdbcType="INTEGER"/>
+        <result column="ctrl_startdate" property="ctrlStartDate" jdbcType="TIMESTAMP"/>
+        <result column="ctrl_enddate" property="ctrlEndDate" jdbcType="TIMESTAMP"/>
+        <result column="ctrl_status" property="ctrlStatus" jdbcType="INTEGER"/>
+        <result column="ctrl_type" property="ctrlType" jdbcType="INTEGER"/>
+    </resultMap>
+</mapper>

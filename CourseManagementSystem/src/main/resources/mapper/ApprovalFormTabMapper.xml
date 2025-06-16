@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="essusys.coursemanagementsystem.demos.web.mapper.ApprovalFormTabMapper">
+    <!-- 结果映射 -->
+    <resultMap id="ApprovalFormTabResultMap" type="essusys.coursemanagementsystem.demos.web.entity.ApprovalFormTab">
+        <id property="apfId" column="apf_id"/>
+        <result property="apfAdmId" column="apf_adm_id"/>
+        <result property="apfTchId" column="apf_tch_id"/>
+        <result property="apfCouCode" column="apf_cou_code"/>
+        <result property="apfStatus" column="apf_status"/>
+        <result property="apfNote" column="apf_note"/>
+    </resultMap>
+</mapper>

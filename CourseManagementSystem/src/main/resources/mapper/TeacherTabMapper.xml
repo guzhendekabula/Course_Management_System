@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="essusys.coursemanagementsystem.demos.web.mapper.TeacherTabMapper">
+    <!-- 结果映射 -->
+    <resultMap id="TeacherTabResultMap" type="essusys.coursemanagementsystem.demos.web.entity.TeacherTab">
+        <result property="tchId" column="tch_id"/>
+        <result property="tchName" column="tch_name"/>
+        <result property="tchSex" column="tch_sex"/>
+        <result property="tchSch" column="tch_sch"/>
+        <result property="tchTel" column="tch_tel"/>
+        <result property="tchPicture" column="tch_picture"/>
+        <result property="tchAccount" column="tch_account"/>
+        <result property="tchPassword" column="tch_password"/>
+        <result property="tchStatus" column="tch_status"/>
+    </resultMap>
+</mapper>

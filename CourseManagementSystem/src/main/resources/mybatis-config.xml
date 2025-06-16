@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://gz-cdb-iy5lugg9.sql.tencentcdb.com:20758/uams_db"/>
+                <property name="username" value="sysussegroup"/>
+                <property name="password" value="sysusse001"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!-- mapper.xml -->
+    <mappers>
+        <mapper resource="resources/mapper/ClassTabMapper.xml"/>
+
+    </mappers>
+</configuration>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="essusys.coursemanagementsystem.demos.web.mapper.CourseTabMapper">
+    <!-- 结果映射 -->
+    <resultMap id="CourseTabResultMap" type="essusys.coursemanagementsystem.demos.web.entity.CourseTab">
+        <result property="couCode" column="cou_code"/>
+        <result property="couName" column="cou_name"/>
+        <result property="couIfexam" column="cou_ifexam"/>
+        <result property="couIfscore" column="cou_ifscore"/>
+        <result property="couTerm" column="cou_term"/>
+        <result property="couText" column="cou_text"/>
+        <result property="couType" column="cou_type"/>
+        <result property="couLanguage" column="cou_language"/>
+        <result property="couRank" column="cou_rank"/>
+        <result property="couStatus" column="cou_status"/>
+        <result property="couSchool" column="cou_school"/>
+        <result property="couScore" column="cou_score"/>
+    </resultMap>
+</mapper>

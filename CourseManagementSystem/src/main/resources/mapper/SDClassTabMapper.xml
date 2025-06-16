@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="essusys.coursemanagementsystem.demos.web.mapper.SeDeClassMapper">
+    <!-- 结果映射 -->
+    <resultMap id="SDClassTabResultMap" type="essusys.coursemanagementsystem.demos.web.entity.SDClassTab">
+<!--        <result property="claId" column="cla_id"/>-->
+<!--        <result property="claCouCode" column="cla_cou_code"/>-->
+<!--        <result property="claTchId" column="cla_tch_id"/>-->
+        <result property="claTimeset" column="cla_timeset"/>
+        <result property="claWeekset" column="cla_weekset"/>
+        <result property="claClassroom" column="cla_classroom"/>
+<!--        <result property="couCode" column="cou_code"/>-->
+        <result property="couIfexam" column="cou_ifexam"/>
+        <result property="couName" column="cou_name"/>
+        <result property="couTerm" column="cou_term"/>
+        <result property="couRank" column="cou_rank"/>
+        <result property="couScore" column="cou_score"/>
+        <result property="scoStuId" column="sco_stu_id"/>
+        <result property="claId" column="cla_id"/>
+<!--        <result property="scoClaId" column="sco_cla_id"/>-->
+<!--        <result property="scoScore1" column="sco_score_1"/>-->
+<!--        <result property="scoScore2" column="sco_score_2"/>-->
+        <result property="tchName" column="tch_name"/>
+    </resultMap>
+</mapper>

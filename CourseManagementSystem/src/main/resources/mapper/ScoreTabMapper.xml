@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="essusys.coursemanagementsystem.demos.web.mapper.StudentGradeMapper">
+    <!-- 结果映射 -->
+    <resultMap id="ScoreTabResultMap" type="essusys.coursemanagementsystem.demos.web.entity.ScoreTab">
+                <result property="scoStuId" column="sco_stu_id"/>
+                <result property="scoClaId" column="sco_cla_id"/>
+                <result property="scoScore1" column="sco_score_1"/>
+                <result property="scoScore2" column="sco_score_2"/>
+                <result property="scoItem2" column="sco_item_2"/>
+                 <result property="scoNote" column="sco_note"/>
+                <result property="scoItem1" column="sco_item_1"/>
+                <result property="scoItem3" column="sco_item_3"/>
+                <result property="scoItem4" column="sco_item_4"/>
+
+    </resultMap>
+</mapper>

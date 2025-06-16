@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="essusys.coursemanagementsystem.demos.web.mapper.AdminTabMapper">
+    <!-- 结果映射 -->
+    <resultMap id="AdminTabResultMap" type="essusys.coursemanagementsystem.demos.web.entity.AdminTab">
+        <result property="admId" column="adm_id"/>
+        <result property="admName" column="adm_name"/>
+        <result property="admRank" column="adm_rank"/>
+        <result property="admTel" column="adm_tel"/>
+        <result property="admAccount" column="adm_account"/>
+        <result property="admPassword" column="adm_password"/>
+        <result property="admStatus" column="adm_status"/>
+    </resultMap>
+</mapper>
